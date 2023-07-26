@@ -21,5 +21,5 @@ const isValid = function (s) {
   return !stack.length;
 };
 
-let s = "(])";
+let s = "[]()";
 console.log(isValid(s));
